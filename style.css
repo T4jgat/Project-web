@@ -1,0 +1,149 @@
+* {
+    margin: 30px;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    background-image: url('images/back.png');
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    position: inherit;
+}
+
+#carPhoto{
+    float: right;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo h1 {
+    padding: 1px;
+}
+
+.search-form button {
+    position: relative;
+    left: -19%
+}
+
+header {
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
+    color: black;
+    font-size: 19px;
+    text-decoration: none;
+
+}
+
+header nav {
+    padding-top: 50px;
+}
+
+content {
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+}
+
+
+.carModels {
+    font-family: 'Montserrat';
+    font-size: large;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    width: 94%;
+    text-align: center;
+    
+    
+    
+}
+#firstRow {
+    background-color: blueviolet;
+    
+    
+
+}
+#carModelsTable{
+    a:link {
+        text-decoration: blue;
+      }
+      
+      a:visited {
+        text-decoration: purple;
+      }
+      
+      a:hover {
+        text-decoration: hotpink;
+      }
+    
+
+  
+
+
+      
+}
+
+
+.footer-form {
+    width: 400px;
+    background-color: white;
+    border-radius: 16px;
+    padding: 64px 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    border: 1px solid black;
+}
+.footer-form h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color:  black;
+}
+.footer-form input {
+    margin: 0;
+    border: 1px solid black;
+    outline: none;
+    padding: 12px 16px;
+    border-radius: 8px;
+    /* border: 1px solid #1b3c97; */
+}
+.footer-form button {
+    border: none;
+    margin: 0;
+    padding: 12px 32px;
+    border-radius: 8px;
+    background-color: rgb(243, 142, 42);
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}  
+
+h3 {
+    text-align: center;
+    display: block;
+    padding-top: 20px;
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+tr:nth-child(even) {
+    background-color: #af9eb4;
+  }
